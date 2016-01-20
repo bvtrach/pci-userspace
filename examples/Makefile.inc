@@ -6,7 +6,7 @@
 LDADD+= -lrumpdev_pci -lrumpdev
 
 # networking stack
-LDADD+=	-lrumpnet_netinet6 -lrumpnet_netinet -lrumpnet_net -lrumpnet
+LDADD+=	-lrumpnet_netinet -lrumpnet_net -lrumpnet
 
 # bpf for dhcpclient and wpa_supplicant
 LDADD+=	-lrumpdev_bpf 
